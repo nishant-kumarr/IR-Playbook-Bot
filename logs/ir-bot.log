@@ -1,0 +1,5 @@
+{"timestamp":"2025-12-27T19:30:46.896Z","userId":"U0A5U1UJZ9A","command":"collect logs HR-LAPTOP-22","action":"collect logs","host":"HR-LAPTOP-22","allowed":true,"reason":"OK","success":true}
+{"timestamp":"2025-12-27T19:31:15.543Z","userId":"U0A5U1UJZ9A","command":"quarantine host HR-LAPTOP-22","action":"quarantine host","host":"HR-LAPTOP-22","allowed":true,"reason":"OK","success":true}
+{"timestamp":"2025-12-27T19:31:45.167Z","userId":"U0A5U1UJZ9A","command":"check status HR-LAPTOP-22","action":"check status","host":"HR-LAPTOP-22","allowed":true,"reason":"OK","success":true}
+{"timestamp":"2025-12-27T19:32:08.099Z","userId":"U0A5U1UJZ9A","command":"remediation report HR-LAPTOP-22","action":"remediation report","host":"HR-LAPTOP-22","allowed":true,"reason":"OK","success":true}
+{"timestamp":"2025-12-27T19:33:00.511Z","userId":"U0A5U1UJZ9A","command":"Similarly we can run for any PC / Host.","action":null,"host":null,"allowed":false,"reason":"Unknown or disallowed action","success":false}
