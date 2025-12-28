@@ -43,11 +43,11 @@ Secure PowerShell playbooks · RBAC · Immutable audit logs · Zero-trust execut
 
 ## 🚀 Production Benefits
 
-- **Instant IR Acceleration**  
-  Analysts execute response playbooks up to **10× faster** using familiar Slack workflows.
+- **IR Acceleration**  
+  Analysts execute response playbooks directly from Slack workflows
 
-- **Compliance Assurance**  
-  Built-in audit trails support **SOC 2, PCI-DSS, and regulatory compliance** requirements out-of-the-box.
+- **Compliance Foundation**  
+  JSON audit trails provide structured logging foundation for compliance frameworksof-the-box.
 
 - **Zero Infrastructure Overhead**  
   Deploy in minutes by leveraging existing Slack and PowerShell environments.
