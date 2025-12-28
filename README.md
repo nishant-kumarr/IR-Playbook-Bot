@@ -71,6 +71,12 @@ Secure PowerShell playbooks · RBAC · Immutable audit logs · Zero-trust execut
 - **Architecture Diagram, Screenshots, Demo Video & Full Documentation**  
   https://github.com/nishant-kumarr/IR-Playbook-Bot/tree/master/docs
 
+-   $${\color{red}\textbf{Demo\ InAction\ Video}}$$  
+  https://drive.google.com/file/d/1FV0WNBRCagfwVjfnWEqLc7X_nWwcF6K-/view?usp=sharing
+
+
+
+
 ---
 
 ## 🛡️ Use Cases
