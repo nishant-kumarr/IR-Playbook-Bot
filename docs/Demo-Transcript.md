@@ -1,12 +1,13 @@
-# Demo Transcript: IR-Bot
+<h1 align="center"> Demo Transcript : IR Playbook Bot </h1>
 
-Professional walkthrough demonstrating IR-Bot incident response workflows.
+<br>
+Walkthrough demonstrating IR-Bot incident response workflows.
 
 ---
 
 ## Overview
 
-This document provides a structured demo script for showcasing IR-Bot capabilities: centralized incident response in Slack, RBAC enforcement, and complete audit trails. The demo simulates a real incident scenario: suspicious login activity on workstation HR-LAPTOP-22 requiring investigation and containment.
+This document provides a structured demo script for showcasing IR-Bot capabilities : centralized incident response in Slack, RBAC enforcement, and complete audit trails. The demo simulates a real incident scenario : suspicious login activity on workstation HR-LAPTOP-22 requiring investigation and containment.
 
 **Duration:** 7-10 minutes  
 **Audience:** Security teams, incident responders, compliance auditors  
@@ -355,24 +356,6 @@ cat logs/ir-bot.log
 
 ---
 
-## Production Readiness Checklist
-
-Before deploying to production:
-
-- [ ] Connect to real Windows hosts (not simulated)
-- [ ] Implement actual network quarantine (not marker files)
-- [ ] Move RBAC to database (not hardcoded users)
-- [ ] Integrate with SIEM for log aggregation
-- [ ] Set up ticketing integration (Jira, ServiceNow)
-- [ ] Use secrets manager for credentials (AWS Secrets Manager, Vault)
-- [ ] Deploy with high availability (multiple instances, load balancer)
-- [ ] Enable TLS/SSL for all communications
-- [ ] Implement rate limiting and DDoS protection
-- [ ] Conduct security audit and penetration testing
-- [ ] Train incident response team on workflows
-- [ ] Document escalation procedures and runbooks
-
----
 
 ## Troubleshooting Demo Issues
 
@@ -383,24 +366,6 @@ Before deploying to production:
 | Script not found | Scripts in `/scripts/` directory | Verify script names match ACTION_SCRIPTS mapping |
 | Logs not appearing | `logs/` directory exists | Run command in Slack to create directory |
 | Port conflicts | 3000 and 3001 free | Check `netstat -an` or use different ports |
-
----
-
-## Demo Talking Points
-
-**Opening:** "This is IR-Bot—a Slack-native incident response system. Every action is authorized, logged, and auditable. Today we'll respond to a suspicious login on HR-LAPTOP-22: investigate, contain, and document."
-
-**Scene 1-2:** "Investigation phase. Responder checks if host is accessible and collects security logs for analysis. All in Slack, no SSH required."
-
-**Scene 3-4:** "Containment phase. Responder quarantines the host. Status verification confirms isolation took effect. Decision-making + execution = seconds."
-
-**Scene 5:** "Documentation phase. Automated report generation with timestamp. No manual form-filling. Compliance-ready."
-
-**Scene 6:** "RBAC in action. Lower-privileged user attempts quarantine. System rejects immediately. Authorization enforced at backend, not Slack."
-
-**Scene 7:** "Audit trail. Every action recorded with user, timestamp, result. Forensic teams review history. Compliance teams audit log."
-
-**Closing:** "Speed. Safety. Accountability. This is industrial-grade incident response automation."
 
 ---
 
