@@ -1,0 +1,7 @@
+﻿Remediation Report
+Host: HR-LAPTOP-22
+Generated: 2025-12-28T01:02:08.9345047+05:30
+
+- Logs collected.
+- Quarantine state checked.
+- Actions performed.

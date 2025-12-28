@@ -1,0 +1,7 @@
+﻿IR-Bot quarantine record
+Host: HR-LAPTOP-22
+Time: 2025-12-28T01:01:16.6419258+05:30
+
+Action taken
+- Host QUARANTINED.
+.
