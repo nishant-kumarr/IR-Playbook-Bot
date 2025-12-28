@@ -1,6 +1,6 @@
-# Deployment Guide: IR-Bot
-
-A comprehensive guide to deploying the IR-Bot incident response system in production environments.
+<h1 align="center"> Deployment Guide : IR Playbook Bot </h1>
+<br>
+A comprehensive guide to deploying the IR-Bot incident response system.
 
 ---
 
@@ -518,7 +518,6 @@ If scaling beyond local file storage (audit logs):
 ### Getting Help
 
 - **GitHub Issues:** https://github.com/nishant-kumarr/IR-Playbook-Bot/issues
-- **Repository README:** Full documentation and examples
 - **Service Logs:** Check `logs/ir-bot.log` for detailed error messages
 - **Debug Mode:** Enable with `LOG_LEVEL=debug` in `.env`
 
